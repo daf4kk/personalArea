@@ -1,0 +1,193 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+  width: 14px;
+  /* ширина для вертикального скролла */
+  height: 8px;
+  /* высота для горизонтального скролла */
+  background-color: #6a6e75;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #843465;
+  border-radius: 15px;
+  background-color: #FF9E14;
+}
+
+.loading-panel, .error-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: lightgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.error-panel {
+  color: #EE404C;
+}
+
+.home-page-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-page-container .home-page {
+  width: 1100px;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-page-container .home-page .top-panel {
+  width: 950px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-page-container .home-page .top-panel .active-user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #212326;
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+  padding: 10px;
+  height: 80px;
+}
+
+.home-page-container .home-page .top-panel .active-user-info .active-user-title {
+  color: white;
+  opacity: 0.6;
+}
+
+.home-page-container .home-page .top-panel .active-user-info .info {
+  margin-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-page-container .home-page .top-panel .active-user-info .info h3 {
+  color: #FF9E14;
+}
+
+.home-page-container .home-page .top-panel .active-user-info .info p {
+  color: white;
+  opacity: 0.8;
+}
+
+.home-page-container .home-page .top-panel h1 {
+  color: white;
+  margin-left: 100px;
+}
+
+.home-page-container .home-page .plus-icon {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.home-page-container .home-page .contacts-area {
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+  overflow: auto;
+  background-color: #212326;
+  border-radius: 10px;
+}
+
+.home-page-container .home-page .contacts-area .user {
+  width: 95%;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-page-container .home-page .contacts-area .user .user-info {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.home-page-container .home-page .contacts-area .user .user-info h3 {
+  color: #FF9E14;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.home-page-container .home-page .contacts-area .user .user-info p {
+  color: white;
+  opacity: 0.8;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.home-page-container .home-page .contacts-area .user .user-tools-container {
+  width: 120px;
+  height: 60px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.home-page-container .home-page .contacts-area .user .user-tools-container .user-tools {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-page-container .home-page .contacts-area .user .user-tools-container .user-tools img {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=area.css.map */

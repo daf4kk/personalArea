@@ -1,0 +1,60 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "email": "qwe@mail.ru",
+            "name": "Andrey",
+            "password": "qwe",
+            "number": 7543656543
+        },
+        {
+            "id": 1,
+            "email": "qwe1@mail.ru",
+            "name": "Roma",
+            "password": "qwe1",
+            "number": 75428542
+        },
+        {
+            "id": 2,
+            "email": "qwe2@mail.ru",
+            "name": "Ilya",
+            "password": "qwe2",
+            "number": 48643498651
+        },
+        {
+            "id": 3,
+            "email": "qwe3@mail.ru",
+            "name": "Vova",
+            "password": "qwe3",
+            "number": 94614132
+        },
+        {
+            "id": 4,
+            "email": "qwe4@mail.ru",
+            "name": "Kirill",
+            "password": "qwe4",
+            "number": 45465645
+        },
+        {
+            "id": 5,
+            "email": "qwe5@mail.ru",
+            "name": "Stepan",
+            "password": "qwe5",
+            "number": 561233187
+        },
+        {
+            "id": 6,
+            "email": "qwe6@mail.ru",
+            "name": "Sofia",
+            "password": "qwe6",
+            "number": 985462398
+        },
+        {
+            "id": 7,
+            "email": "qwe7@mail.ru",
+            "name": "Masha",
+            "password": "qwe7",
+            "number": 44434867
+        }
+    ]
+}

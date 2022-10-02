@@ -1,0 +1,111 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #25272A;
+}
+
+.authorization-area-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 225, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.authorization-area-wrapper .authorization-title {
+  font-size: 35px;
+  color: white;
+}
+
+.authorization-area-wrapper .authorization-area {
+  width: 500px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.authorization-area-wrapper .authorization-area .warning-panel {
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.authorization-area-wrapper .authorization-area .warning-panel img {
+  width: 25px;
+  height: 25px;
+}
+
+.authorization-area-wrapper .authorization-area .warning-panel .authorization-error {
+  position: relative;
+  top: 3px;
+  left: 5px;
+  font-size: 18px;
+  color: #EE404C;
+}
+
+.authorization-area-wrapper .authorization-area .inputs-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.authorization-area-wrapper .authorization-area .inputs-area input {
+  font-size: 20px;
+  outline: none;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+  padding-left: 15px;
+}
+
+.authorization-area-wrapper .authorization-area .inputs-area input:focus {
+  outline: 2px solid #FF9E14;
+}
+
+.authorization-area-wrapper .authorization-area button {
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #FF9E14;
+  font-size: 24px;
+  font-weight: 600;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: none;
+}
+
+.authorization-area-wrapper .authorization-area button:hover {
+  color: white;
+}
+/*# sourceMappingURL=autorization.css.map */
