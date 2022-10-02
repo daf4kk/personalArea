@@ -9,5 +9,5 @@
 стек: React, Redux, Redux-thunk, React-router, TypeScript, json-server
 
 Для запуска:
-    npm run server
-    npm start
+    1)npm run server
+    2)npm start
