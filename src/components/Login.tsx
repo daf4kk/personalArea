@@ -71,7 +71,6 @@ const Login = ({setLoged, isLoged}:Props) => {
                     }}></input>
                 </div>
                 <button onClick = {()=> {
-                    console.log('login press')
                     checkFormValidate();
                 }}>Войти</button>
             </div>

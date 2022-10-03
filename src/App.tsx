@@ -13,7 +13,6 @@ const App = () => {
   // render users with mount
   useEffect(() => {
       fetchUsers();
-      console.log(users) 
   }, []);
 
   if (loading){
@@ -30,7 +29,6 @@ const App = () => {
         </div>
         )
   }
-  console.log(users);
 
   return (
     <>
